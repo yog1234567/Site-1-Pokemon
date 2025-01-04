@@ -12,7 +12,11 @@
 
 @font-face {
     font-family: pokemon;
+<<<<<<< HEAD
     src: url(font/Pokemon\ Solid.ttf)
+=======
+    src: url(font/Pokemon\ Solid.ttf);
+>>>>>>> 7ae03bf52154db6d8daf58a3a049949f80144ae5
 }
 
 @font-face {
@@ -31,8 +35,15 @@ body {
     #ponto1 {
         /* Inicio do ponto 1 */
         background-color: #DB0B00;
+<<<<<<< HEAD
         width: 100%;
         text-align: center;
+=======
+        width: 101vw;
+        text-align: center;
+        padding: -10px;
+        margin: -10px;
+>>>>>>> 7ae03bf52154db6d8daf58a3a049949f80144ae5
     }
 
     #ponto1>h1 {
@@ -79,7 +90,10 @@ body {
     #ponto3 {
         /* inicio do ponto 3 */
         padding-top: 20px;
+<<<<<<< HEAD
         width: 90%;
+=======
+>>>>>>> 7ae03bf52154db6d8daf58a3a049949f80144ae5
 
 
 
@@ -108,8 +122,12 @@ body {
 
 
     #ponto4 {
+<<<<<<< HEAD
         display: flex;
         flex-wrap: wrap;
+=======
+        display: inline-flex;
+>>>>>>> 7ae03bf52154db6d8daf58a3a049949f80144ae5
 
 
         .pokemon {
@@ -127,8 +145,12 @@ body {
 
 
             img {
+<<<<<<< HEAD
                 width: 160px;
                 height: 200px;
+=======
+                width: 200px;
+>>>>>>> 7ae03bf52154db6d8daf58a3a049949f80144ae5
                 box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.116);
             }
 
