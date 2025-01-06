@@ -6543,8 +6543,7 @@ button.bg-dark:focus {
   -ms-flex-wrap: wrap !important;
   flex-wrap: wrap !important;
 }
-
-.flex-nowrap {
+.flex-nowrap{
   -ms-flex-wrap: nowrap !important;
   flex-wrap: nowrap !important;
 }
