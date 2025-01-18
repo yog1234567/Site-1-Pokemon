@@ -20,12 +20,18 @@
     src: url(../font/Pokemon\ Hollow.ttf);
 }
 
+
 body {
-    background: url('./imagens/fundo2.jpg') no-repeat;
-    background-position: center;
-    background-size: 400px;
+    background: url(../imagens/pokedex.jpg) no-repeat center center fixed;
+    background-size: cover;
     width: 100%;
     display: inline;
+}
+
+.pokemon{
+    background-color: rgba(255, 255, 255, 0.39);
+    color: black;
+    font-weight: bold;
 }
 
     #ponto1 {
@@ -80,6 +86,7 @@ body {
 
 
         #sub {
+            color: white;
             padding-left: 40px;
             padding-bottom: 30px;
             margin: 30px;
@@ -159,7 +166,7 @@ body {
     margin-top: 90px;
     padding: 30px;
     text-align: center;
-    background-color: rgba(240, 248, 255, 0.849);
+    background-color: rgba(145, 138, 138, 0.356);
 }           /* final do ponto 5 */
 
 #ponto5 h4{

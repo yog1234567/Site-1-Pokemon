@@ -1,7 +1,12 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    #ponto1 h1{
+        font-size: 2em;
+    }
+
+
     #ponto4{
-        width: 50%;
+        width: 100%;
         overflow: hidden;
     }
 }
@@ -9,7 +14,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 500px) and (max-width: 767.98px) {
     #ponto4{
-        width: 60%;
+        width: 100%;
         overflow: hidden;
     }
 }
